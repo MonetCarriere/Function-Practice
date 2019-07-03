@@ -4,6 +4,15 @@
 // if-then-else construct available in JavaScript.
 // ---------------------
 
+function max (8,2) {
+    if (8>2){
+        return true
+            } else {
+                return false
+            } 
+    }
+}
+
 console.assert(max(2,3) === 3)
 console.assert(max(23,24) === 24)
 console.assert(max(-23, 12) === 12)
@@ -13,15 +22,30 @@ console.assert(max(-23, 12) === 12)
 // numbers as arguments and returns the largest of them.
 // ---------------------
 
-console.assert(maxOfThree(2,56,3) === 56)
-console.assert(maxOfThree(12,3,4) === 12)
-console.assert(maxOfThree(-12,4,-5) === 4)
+function maxOfThree (12, 99,3) {
+   return maxOfThree(Math.max (12,99,3))
+}
+
+//console.assert(maxOfThree(2,56,3) === 56)
+//console.assert(maxOfThree(12,3,4) === 12)
+//console.assert(maxOfThree(-12,4,-5) === 4)
 
 // ---------------------
 // Write a function isVowel() that takes a character (i.e. a 
 // string of length 1) and returns true if it is a 
 // vowel, false otherwise.
 // ---------------------
+
+
+
+function isVowel("unicorn") {
+    if(isVowel = vowel) {
+        return true {
+            } else { 
+                return false
+        }
+    }
+}
 
 console.assert(isVowel(0) === false);
 console.assert(isVowel("B") === false);
@@ -37,6 +61,9 @@ console.assert(isVowel("2") === false)
 // For example, translate("this is fun") should return 
 // the string "tothohisos isos fofunon".
 // ---------------------
+
+
+function rovarspraket()
 
 console.assert(rovarspraket("a") === "a")
 console.assert(rovarspraket("b") === "bob")
